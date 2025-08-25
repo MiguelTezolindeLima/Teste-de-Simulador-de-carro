@@ -1,0 +1,44 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #87CEEB, #4682B4); /* Fundo estilo céu */
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 20px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+}
+
+#scoreDisplay {
+    font-size: 1.8rem;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px 25px;
+    border-radius: 20px;
+    display: inline-block;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    background: linear-gradient(to right, #007ACC, #005EA6);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(to right, #005EA6, #003D73);
+    transform: translateY(-3px);
+}
+
+button:active {
+    transform: translateY(2px);
+}
